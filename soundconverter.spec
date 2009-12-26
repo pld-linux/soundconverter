@@ -11,7 +11,8 @@ URL:		http://soundconverter.berlios.de/
 BuildRequires:	gettext-devel
 BuildRequires:	intltool >= 0.40.0
 BuildRequires:	python >= 1:2.4
-BuildRequires:	python-pygtk-devel >= 2.12
+BuildRequires:	python-pygtk-glade >= 2.12
+BuildRequires:	python-pygtk-gtk >= 2.12
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 Requires(post,postun):	hicolor-icon-theme
