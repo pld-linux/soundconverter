@@ -1,12 +1,12 @@
 Summary:	Soundconverter for GNOME
 Summary(pl.UTF-8):	Program do konwersji plików muzycznych dla GNOME'a
 Name:		soundconverter
-Version:	1.4.4
+Version:	1.5.3
 Release:	1
 License:	GPL v2
 Group:		Applications/Sound
-Source0:	http://download.berlios.de/soundconverter/%{name}-%{version}.tar.bz2
-# Source0-md5:	c49c60cc466b50e000f83b8d50645ef8
+Source0:	http://download.berlios.de/soundconverter/%{name}-%{version}.tar.gz
+# Source0-md5:	e090893dcab72671d2e509d389b664d9
 URL:		http://soundconverter.berlios.de/
 BuildRequires:	gettext-devel
 BuildRequires:	intltool >= 0.40.0
