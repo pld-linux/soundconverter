@@ -20,6 +20,7 @@ Requires(post,postun):	hicolor-icon-theme
 Requires:	python-gnome
 Requires:	python-gnome-ui
 Requires:	python-gstreamer
+Requires:	python-pygtk-glade
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
