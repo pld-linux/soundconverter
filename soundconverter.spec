@@ -2,7 +2,7 @@ Summary:	Soundconverter for GNOME
 Summary(pl.UTF-8):	Program do konwersji plików muzycznych dla GNOME'a
 Name:		soundconverter
 Version:	1.5.3
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/Sound
 Source0:	http://download.berlios.de/soundconverter/%{name}-%{version}.tar.gz
@@ -16,6 +16,7 @@ BuildRequires:	python-pygtk-glade >= 2.12
 BuildRequires:	python-pygtk-gtk >= 2.12
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
+Requires(post,postun):	gtk-update-icon-cache
 Requires(post,postun):	hicolor-icon-theme
 Requires:	python-gnome
 Requires:	python-gnome-ui
