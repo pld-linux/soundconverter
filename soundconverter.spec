@@ -8,7 +8,7 @@ Group:		Applications/Sound
 Source0:	http://download.berlios.de/soundconverter/%{name}-%{version}.tar.gz
 # Source0-md5:	e090893dcab72671d2e509d389b664d9
 URL:		http://soundconverter.berlios.de/
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	intltool >= 0.40.0
 BuildRequires:	python >= 1:2.4
 BuildRequires:	python-gnome >= 2.12
